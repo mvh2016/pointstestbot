@@ -582,7 +582,7 @@ bot.on('message', async message => {
     return undefined;
   }
 
-  if (message.content.toLowerCase().startsWith(`${config.prefix}code`) || message.content.toLowerCase().startsWith(`${config.prefix}link`) || message.content.toLowerCase().startsWith(`${config.prefix}tutorial`)){
+ if (message.content.toLowerCase().startsWith(`${prefix}code`) || message.content.toLowerCase().startsWith(`${prefix}link`) || message.content.toLowerCase().startsWith(`${prefix}tutorial`)){
     var embed = new Discord.RichEmbed()
       .setColor(0xff3636)
       .setDescription(`**[Video Tutorial](https://github.com/nishi7409/ClanLabsV2-OpenSourced)**`)
