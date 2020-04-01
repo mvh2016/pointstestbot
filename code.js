@@ -1,13 +1,13 @@
 /* SETTINGS START */
-const prefix = ";"
-const groupID = 5279219;
+const prefix = "!"
+const groupID = 970393;
 const bot_token = process.env.botToken;
 const rblxCookie = process.env.rblxCookie;
 const officerRoleE = "Points Giver";
 const welcomeMessage = "Welcome!";
 const maxXP = 10;
-const xpAuditLogChannelID = "654309626270973954";
-const mainChatChannelID = "654309657296502784";
+const xpAuditLogChannelID = "678815225742622741";
+const mainChatChannelID = "678814782715068450";
 const fireBaseURL = process.env.fireBaseURL;
 const xpName = "xp";
 /* SETTINGS END */
